@@ -1,12 +1,7 @@
 var buttonsList = document.querySelectorAll(".pressBtn");
 var textAreaList = document.querySelectorAll(".textarea");
 var currentDateDisplay = document.getElementById("currentDay");
-var area1Text = document.getElementById("area1");
 currentDateDisplay.textContent = moment().format("MMMM Do YYYY");
-var eventText;
-var eventTracker = JSON.parse(localStorage.getItem("eventTracker")) || [];
-var statusArray = [];
-
 
 function timeTracker() {
   var timerInterval = setInterval(function () {

@@ -8,6 +8,19 @@ body {
   line-height: 1;
 }
 
+.jumbotron {
+  text-align: center;
+  background-color: #eeeeee;
+  color: black;
+  border-radius: 0;
+  border-bottom: 5px solid #393b44;
+}
+
+#currentDay{
+  font-weight:900;
+
+}
+
 .container{
   text-align: center !important;
 }
@@ -18,19 +31,7 @@ body {
   align-items: center;
   justify-content: center;
   border: 1px solid black;
-
 }
-
-.habib {
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 10px;
-
-}
-
-
 
 .textarea{
   background: transparent;
@@ -39,14 +40,6 @@ body {
   color: #000000;
   border: 1px solid black;
   padding: 10px;
-}
-
-.jumbotron {
-  text-align: center;
-  background-color: transparent;
-  color: black;
-  border-radius: 0;
-  border-bottom: 10px solid black;
 }
 
 .description{
@@ -64,18 +57,22 @@ body {
   border-top: 1px solid white;;
 }
 
-
-.saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #06AED5;
-  color: white;
+.pressBtn {
+  background-color: #00bcd4 ;
+  border-radius: 10px;
 }
 
-.saveBtn i:hover {
+.pressBtn:hover:not([disabled]) {
+  background-color:#318fb5 ;
+}
+
+.pressBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+}
+.pressBtn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+
 }
 
 #footer {
@@ -106,8 +103,4 @@ body {
 
 }
 
-.pressBtn {
-  background-color: #00bcd4 ;
-  border-radius: 10px;
-}
 
