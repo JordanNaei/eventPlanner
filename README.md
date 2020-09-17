@@ -1,8 +1,21 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# Work Day Scheduler
+```
+This project aimed to build a a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
-Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
-
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
+to ensure the following:
+    -	ensuring that people with disabilities can acccess the website.
+    -	Prevent any possible litigations.
+Our Dev team built the Website and optimized the html and css code to meet the client expectations. The list below identifies the changes and enhancement our Dev team applied to the code:
+    1-	The usage of regular divs instead of other semantic html 5 elements, for simplicity.
+    2-	Ensure that the html and css style guide criteria is met.
+    5-	Generated report to the before and after website code base to exhibit the benefits of our enhancement in the following category:
+    . Performance.
+    . Best practices.
+    . Accessibility.
+    . SEO.
+    6- Ensuured that the website is responsive enough to variety of view ports sizes.
+    7- We included sceenshots of different reports to confirm the deliveriables. (Please check the word document attached).
+```
 
 ## User Story
 
@@ -17,30 +30,26 @@ SO THAT I can manage my time effectively
 ```
 GIVEN I am using a daily planner to create a schedule
 WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
+THEN the current day is displayed at the top of the calendar (pass)
 WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
+THEN I am presented with timeblocks for standard business hours (pass)
 WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
+THEN each timeblock is color coded to indicate whether it is in the past, present, or future (pas)
 WHEN I click into a timeblock
-THEN I can enter an event
+THEN I can enter an event (pass)
 WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
+THEN the text for that event is saved in local storage (pass)
 WHEN I refresh the page
-THEN the saved events persist
+THEN the saved events persist (pass)
 ```
+###
+Deployed application URL: https://jordannaei.github.io/codeQuiz/index.html
+<img src="Assets/eventPlanner.PNG" alt= "this is the app main page">
 
-The following animation demonstrates the application functionality:
+###
+Mobile Friendly checker:
+<img src="Assets/MobileFTest.PNG" alt= "this is the Mobile Friendly Test">
 
-![day planner demo](./Assets/05-third-party-apis-homework-demo.gif)
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+###
+DevTool Test:
+<img src="Assets/DevToolTest.PNG" alt= "this is the DevTool Test">
