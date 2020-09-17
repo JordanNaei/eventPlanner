@@ -1,14 +1,13 @@
 var buttonsList = document.querySelectorAll(".pressBtn");
 var textAreaList = document.querySelectorAll(".textarea");
 var currentDateDisplay = document.getElementById("currentDay");
-
+currentDateDisplay.textContent = moment().format("MMMM Do YYYY");
 
 console.log(buttonsList);
 
 
 function timeTracker() {
   var timerInterval = setInterval(function () {
-    currentDateDisplay.textContent = moment().format("MMMM Do YYYY");
     watchHour = moment().hours();
     watchMinute = moment().minutes();
     if ((watchHour == 18 && watchMinute > 0) && (watchHour <=24)) {

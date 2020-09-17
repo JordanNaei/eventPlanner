@@ -40,6 +40,7 @@ body {
   color: #000000;
   border: 1px solid black;
   padding: 10px;
+
 }
 
 .past {
@@ -89,19 +90,11 @@ body {
   cursor: pointer;
 
 }
-
-#footer {
-  text-align: center;
-  padding: 5%;
-}
-.footer-p {
-  margin-top: 10px;
-}
-
 .keyMap{
   display: flex !important;
   align-content: center !important;
   justify-content: center !important;
+  padding: 50px !important;
 }
 .key1 {
   background-color: grey ;
@@ -125,6 +118,16 @@ body {
   margin: 5px !important;
   padding: 10px !important;
 }
+
+
+#footer {
+  text-align: center;
+  padding: 20px;
+}
+.footer-p {
+  margin-top: 10px;
+}
+
 
 
 
